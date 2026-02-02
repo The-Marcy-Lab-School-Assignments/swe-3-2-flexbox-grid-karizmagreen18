@@ -46,3 +46,68 @@ footer {
 /* ================================ */
 /* Add your CSS below this line */
 /* ================================ */
+
+figure {
+  max-width: 300px;
+}
+
+header,
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  gap: 20px;
+}
+
+h1 {
+  padding-top: 40px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#sidebar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#product-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+section {
+  display: flex;
+  flex: 1;
+  gap: 40px;
+}
+
+figcaption {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  #product-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  #product-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  #product-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

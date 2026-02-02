@@ -24,7 +24,7 @@ When would you use **Flexbox** vs **CSS Grid**? Give an example of a layout that
 
 **Your Answer:**
 
-
+I would use Flexbox when I want the elements in my container to be one dimensional, I would either use a row or column but if I wanted my elements to be two dimensional I would use CSS Grid and with that i would then be able to arrange them into rows and columns.
 
 ## Question 4: The `fr` Unit
 
@@ -32,8 +32,7 @@ What does the `fr` unit do in CSS Grid? Explain what `grid-template-columns: 1fr
 
 **Your Answer:**
 
-The (fr) refers to fractional unit, it evenly distributes the available space in the grid container to each grid item without overflowing.
-
+The (fr) refers to fractional unit, it evenly distributes the available space in the grid container to each grid item without overflowing. If we were to use grid-template-columns: 1fr 2fr 1fr, the first and last column would receive 1/4 of the provided space while the second column would receive 2/4.
 
 
 ## Question 5: Media Queries
@@ -41,9 +40,11 @@ The (fr) refers to fractional unit, it evenly distributes the available space in
 What is a **media query** and why are they important for **responsive web design**? Write an example of a media query that applies styles for screens 768px and wider.
 
 **Your Answer:**
+Media queries allows our CSS to be responsive to the users screen size, If we didn't use it and our design was tailored for a laptop and the user was using a phone they would barely see the content on the page, which is why it is important because it would be hard for them to use the app.
 
 ## Question 6: Mobile-First Design
 
 What does **mobile-first design** mean? What are the benefits of taking a mobile-first approach versus a desktop-first approach?
 
 **Your Answer:**
+Mobile-First Design is a responsive web design that starts with designing for mobile devices first and using media queries to modify that design for progressively larger screens which is easier than starting with a larger screen size and working your way towards a smaller screen size.
